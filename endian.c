@@ -2,7 +2,7 @@
 
 int main()
 {
-     unsigned int *x = 1;
+     unsigned int x = 1;
      char *endian = (char*)&x; 
 
      if(*endian)
@@ -13,4 +13,5 @@ int main()
      {
           printf("Big endian\n");
      }
+     return 0;
 }
