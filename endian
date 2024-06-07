@@ -2,8 +2,8 @@
 
 int main()
 {
-     int x = 1;
-     char *endian = (char*) &x; 
+     unsigned int *x = 1;
+     char *endian = (char*)&x; 
 
      if(*endian)
      {
