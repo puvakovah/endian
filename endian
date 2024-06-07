@@ -4,4 +4,13 @@ int main()
 {
      int x = 1;
      char *endian = (char*) &x; 
+
+     if(*endian)
+     {
+          printf("Little endian\n");
+     }
+     else
+     {
+          printf("Big endian\n");
+     }
 }
