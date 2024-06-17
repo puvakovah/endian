@@ -1,1 +1,1 @@
-# endian
+najskor som deklarovala premennu x ako unsigned int a inicializovala hodnotou 1. Dalej deklarujem pointer na znak char *endian a pomocou pretypovania ho inicializujem adresou premennej x. V podmienke if(*endian) deferencujem endian a teda pristupujem k prvemu bajtu v pamati. Pri little endian systeme su bajty ulozene od namenej vyznamneho po najviac vyznamny a pri big endian systeme naopak. Takze ak if(*endian) bude pravdive tak ide o little endian inak big endian
